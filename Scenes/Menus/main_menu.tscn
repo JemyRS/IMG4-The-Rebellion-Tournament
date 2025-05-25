@@ -1,0 +1,413 @@
+[gd_scene load_steps=14 format=3 uid="uid://bnp4q27pleam0"]
+
+[ext_resource type="Shader" uid="uid://ctlec5kjb0a3p" path="res://Scenes/Menus/crt.gdshader" id="1_5wi6m"]
+[ext_resource type="Script" uid="uid://cynan7a07u2oo" path="res://Scripts/Menus/Main Menu/label.gd" id="1_38aua"]
+[ext_resource type="Script" uid="uid://jjtqxff5s3kf" path="res://Scripts/Menus/Main Menu/main_menu.gd" id="1_chkef"]
+[ext_resource type="Script" uid="uid://bux3hjnqyk8hd" path="res://Scripts/Menus/Main Menu/label_2.gd" id="1_pha2q"]
+[ext_resource type="Shader" uid="uid://bt5txf4maeh53" path="res://Scenes/Menus/main_menu.gdshader" id="3_5wi6m"]
+[ext_resource type="Texture2D" uid="uid://c36sugr8amodo" path="res://Spike.png" id="3_penys"]
+
+[sub_resource type="FontFile" id="FontFile_qolup"]
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/17/0/ascent = 0.0
+cache/0/17/0/descent = 0.0
+cache/0/17/0/underline_position = 0.0
+cache/0/17/0/underline_thickness = 0.0
+cache/0/17/0/scale = 1.0
+cache/0/18/0/ascent = 0.0
+cache/0/18/0/descent = 0.0
+cache/0/18/0/underline_position = 0.0
+cache/0/18/0/underline_thickness = 0.0
+cache/0/18/0/scale = 1.0
+cache/0/19/0/ascent = 0.0
+cache/0/19/0/descent = 0.0
+cache/0/19/0/underline_position = 0.0
+cache/0/19/0/underline_thickness = 0.0
+cache/0/19/0/scale = 1.0
+cache/0/20/0/ascent = 0.0
+cache/0/20/0/descent = 0.0
+cache/0/20/0/underline_position = 0.0
+cache/0/20/0/underline_thickness = 0.0
+cache/0/20/0/scale = 1.0
+cache/0/21/0/ascent = 0.0
+cache/0/21/0/descent = 0.0
+cache/0/21/0/underline_position = 0.0
+cache/0/21/0/underline_thickness = 0.0
+cache/0/21/0/scale = 1.0
+cache/0/22/0/ascent = 0.0
+cache/0/22/0/descent = 0.0
+cache/0/22/0/underline_position = 0.0
+cache/0/22/0/underline_thickness = 0.0
+cache/0/22/0/scale = 1.0
+cache/0/23/0/ascent = 0.0
+cache/0/23/0/descent = 0.0
+cache/0/23/0/underline_position = 0.0
+cache/0/23/0/underline_thickness = 0.0
+cache/0/23/0/scale = 1.0
+cache/0/24/0/ascent = 0.0
+cache/0/24/0/descent = 0.0
+cache/0/24/0/underline_position = 0.0
+cache/0/24/0/underline_thickness = 0.0
+cache/0/24/0/scale = 1.0
+cache/0/25/0/ascent = 0.0
+cache/0/25/0/descent = 0.0
+cache/0/25/0/underline_position = 0.0
+cache/0/25/0/underline_thickness = 0.0
+cache/0/25/0/scale = 1.0
+cache/0/26/0/ascent = 0.0
+cache/0/26/0/descent = 0.0
+cache/0/26/0/underline_position = 0.0
+cache/0/26/0/underline_thickness = 0.0
+cache/0/26/0/scale = 1.0
+cache/0/27/0/ascent = 0.0
+cache/0/27/0/descent = 0.0
+cache/0/27/0/underline_position = 0.0
+cache/0/27/0/underline_thickness = 0.0
+cache/0/27/0/scale = 1.0
+cache/0/28/0/ascent = 0.0
+cache/0/28/0/descent = 0.0
+cache/0/28/0/underline_position = 0.0
+cache/0/28/0/underline_thickness = 0.0
+cache/0/28/0/scale = 1.0
+cache/0/29/0/ascent = 0.0
+cache/0/29/0/descent = 0.0
+cache/0/29/0/underline_position = 0.0
+cache/0/29/0/underline_thickness = 0.0
+cache/0/29/0/scale = 1.0
+cache/0/30/0/ascent = 0.0
+cache/0/30/0/descent = 0.0
+cache/0/30/0/underline_position = 0.0
+cache/0/30/0/underline_thickness = 0.0
+cache/0/30/0/scale = 1.0
+cache/0/31/0/ascent = 0.0
+cache/0/31/0/descent = 0.0
+cache/0/31/0/underline_position = 0.0
+cache/0/31/0/underline_thickness = 0.0
+cache/0/31/0/scale = 1.0
+cache/0/32/0/ascent = 0.0
+cache/0/32/0/descent = 0.0
+cache/0/32/0/underline_position = 0.0
+cache/0/32/0/underline_thickness = 0.0
+cache/0/32/0/scale = 1.0
+cache/0/33/0/ascent = 0.0
+cache/0/33/0/descent = 0.0
+cache/0/33/0/underline_position = 0.0
+cache/0/33/0/underline_thickness = 0.0
+cache/0/33/0/scale = 1.0
+cache/0/34/0/ascent = 0.0
+cache/0/34/0/descent = 0.0
+cache/0/34/0/underline_position = 0.0
+cache/0/34/0/underline_thickness = 0.0
+cache/0/34/0/scale = 1.0
+cache/0/35/0/ascent = 0.0
+cache/0/35/0/descent = 0.0
+cache/0/35/0/underline_position = 0.0
+cache/0/35/0/underline_thickness = 0.0
+cache/0/35/0/scale = 1.0
+
+[sub_resource type="LabelSettings" id="LabelSettings_38aua"]
+font = SubResource("FontFile_qolup")
+font_size = 23
+
+[sub_resource type="Animation" id="Animation_38aua"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_qolup"]
+resource_name = "Start"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.5, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_38aua"]
+_data = {
+&"RESET": SubResource("Animation_38aua"),
+&"Start": SubResource("Animation_qolup")
+}
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_chkef"]
+shader = ExtResource("3_5wi6m")
+shader_parameter/scroll_speed = 0.5
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_neey8"]
+shader = ExtResource("1_5wi6m")
+shader_parameter/resolution = Vector2(1240, 720)
+shader_parameter/scan_line_amount = 1.0
+shader_parameter/warp_amount = 0.1
+shader_parameter/noise_amount = 0.03
+shader_parameter/interference_amount = 0.2
+shader_parameter/grille_amount = 0.1
+shader_parameter/grille_size = 1.0
+shader_parameter/vignette_amount = 0.6
+shader_parameter/vignette_intensity = 0.4
+shader_parameter/aberation_amount = 0.5
+shader_parameter/roll_line_amount = 0.3
+shader_parameter/roll_speed = 1.0
+shader_parameter/scan_line_strength = -8.0
+shader_parameter/pixel_strength = -2.0
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_chkef")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_bottom = 4.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Label2" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -112.0
+offset_top = 184.0
+offset_right = 113.0
+offset_bottom = 207.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Presiona Enter para empezar"
+script = ExtResource("1_pha2q")
+
+[node name="Timer" type="Timer" parent="Label2"]
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.179253
+anchor_top = 0.421296
+anchor_right = 0.820747
+anchor_bottom = 0.578704
+grow_horizontal = 2
+grow_vertical = 2
+text = "IMG4 The Rebbelion Tournament es un juego en un desarrollo constante.
+Algunas funciones pueden no estar añadidas o implementadas a medias.
+Este es un juego gratuito, si pagaste por el, pide tu dinero devuelta.
+"
+label_settings = SubResource("LabelSettings_38aua")
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("1_38aua")
+metadata/_edit_use_anchors_ = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Label"]
+libraries = {
+&"": SubResource("AnimationLibrary_38aua")
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+material = SubResource("ShaderMaterial_chkef")
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.0147569
+anchor_top = 0.00617284
+anchor_right = 0.0963542
+anchor_bottom = 0.203704
+texture = ExtResource("3_penys")
+metadata/_edit_group_ = true
+metadata/_edit_use_anchors_ = true
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+material = SubResource("ShaderMaterial_chkef")
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.0147569
+anchor_top = 0.20216
+anchor_right = 0.0963542
+anchor_bottom = 0.399691
+texture = ExtResource("3_penys")
+metadata/_edit_group_ = true
+metadata/_edit_use_anchors_ = true
+
+[node name="TextureRect3" type="TextureRect" parent="."]
+material = SubResource("ShaderMaterial_chkef")
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.0147569
+anchor_top = 0.398148
+anchor_right = 0.0963542
+anchor_bottom = 0.595679
+offset_bottom = 3.05176e-05
+texture = ExtResource("3_penys")
+metadata/_edit_group_ = true
+metadata/_edit_use_anchors_ = true
+
+[node name="TextureRect4" type="TextureRect" parent="."]
+material = SubResource("ShaderMaterial_chkef")
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.0147569
+anchor_top = 0.594136
+anchor_right = 0.0963542
+anchor_bottom = 0.791667
+texture = ExtResource("3_penys")
+metadata/_edit_group_ = true
+metadata/_edit_use_anchors_ = true
+
+[node name="TextureRect5" type="TextureRect" parent="."]
+material = SubResource("ShaderMaterial_chkef")
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.0147569
+anchor_top = 0.790123
+anchor_right = 0.0963542
+anchor_bottom = 0.987654
+texture = ExtResource("3_penys")
+metadata/_edit_group_ = true
+metadata/_edit_use_anchors_ = true
+
+[node name="TextureRect6" type="TextureRect" parent="."]
+material = SubResource("ShaderMaterial_chkef")
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.0147569
+anchor_top = 0.987654
+anchor_right = 0.0963542
+anchor_bottom = 1.18519
+texture = ExtResource("3_penys")
+metadata/_edit_group_ = true
+metadata/_edit_use_anchors_ = true
+
+[node name="TextureRect7" type="TextureRect" parent="."]
+material = SubResource("ShaderMaterial_chkef")
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.90191
+anchor_top = -0.0231481
+anchor_right = 1.01302
+anchor_bottom = 0.174383
+offset_left = -2.0
+offset_top = 18.0
+offset_right = -2.0
+offset_bottom = 18.0
+grow_horizontal = 0
+texture = ExtResource("3_penys")
+flip_h = true
+
+[node name="TextureRect8" type="TextureRect" parent="."]
+material = SubResource("ShaderMaterial_chkef")
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.90191
+anchor_top = 0.17284
+anchor_right = 1.01302
+anchor_bottom = 0.37037
+offset_left = -2.0
+offset_top = 18.0
+offset_right = -2.0
+offset_bottom = 18.0
+grow_horizontal = 0
+texture = ExtResource("3_penys")
+flip_h = true
+
+[node name="TextureRect9" type="TextureRect" parent="."]
+material = SubResource("ShaderMaterial_chkef")
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.90191
+anchor_top = 0.368827
+anchor_right = 1.01302
+anchor_bottom = 0.566358
+offset_left = -2.0
+offset_top = 18.0
+offset_right = -2.0
+offset_bottom = 18.0
+grow_horizontal = 0
+texture = ExtResource("3_penys")
+flip_h = true
+
+[node name="TextureRect10" type="TextureRect" parent="."]
+material = SubResource("ShaderMaterial_chkef")
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.90191
+anchor_top = 0.564815
+anchor_right = 1.01302
+anchor_bottom = 0.762346
+offset_left = -2.0
+offset_top = 18.0
+offset_right = -2.0
+offset_bottom = 18.0
+grow_horizontal = 0
+texture = ExtResource("3_penys")
+flip_h = true
+
+[node name="TextureRect11" type="TextureRect" parent="."]
+material = SubResource("ShaderMaterial_chkef")
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.90191
+anchor_top = 0.760802
+anchor_right = 1.01302
+anchor_bottom = 0.958333
+offset_left = -2.0
+offset_top = 18.0
+offset_right = -2.0
+offset_bottom = 18.0
+grow_horizontal = 0
+texture = ExtResource("3_penys")
+flip_h = true
+
+[node name="TextureRect12" type="TextureRect" parent="."]
+material = SubResource("ShaderMaterial_chkef")
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.90191
+anchor_top = 0.958333
+anchor_right = 1.01302
+anchor_bottom = 1.15586
+offset_left = -2.0
+offset_top = 18.0
+offset_right = -2.0
+offset_bottom = 18.0
+grow_horizontal = 0
+texture = ExtResource("3_penys")
+flip_h = true
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+material = SubResource("ShaderMaterial_neey8")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 1, 0, 1)
+
+[connection signal="gui_input" from="." to="." method="_on_gui_input"]
